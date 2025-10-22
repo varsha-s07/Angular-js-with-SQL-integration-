@@ -1,0 +1,75 @@
+Overview :
+
+The Student Portal Login is a web-based application built using AngularJS for the front end and MySQL for the backend. It allows students to register, log in, and access their personal academic details such as profile, subjects, and grades.
+This project demonstrates frontend-backend integration using AngularJS for dynamic UI and SQL for secure data handling.
+
+
+ Objectives :
+
+Design a secure and efficient student login & registration system.
+
+Integrate AngularJS frontend with SQL via API (PHP/Node.js).
+
+Implement secure authentication and real-time validation.
+
+Demonstrate data flow between UI and database using RESTful APIs.
+
+
+
+ System Architecture :
+
+AngularJS UI → Backend API (PHP/Node.js) → MySQL Database
+
+AngularJS handles user interaction and validation.
+
+Backend API processes requests (login/register).
+
+MySQL stores student details and academic data.
+
+
+
+ Technologies Used :
+
+Layer	Technology
+
+Frontend	AngularJS, HTML, CSS, JS
+Backend	PHP / Node.js
+Database	MySQL
+Tools	VS Code, XAMPP, GitHub
+Deployment	Netlify / Vercel
+
+
+Core Features:
+
+1. Student Registration & Login – Validates users and stores data in MySQL.
+
+
+2. Dashboard – Displays student info, grades, and announcements.
+
+
+3. Profile Update – Allows real-time edits using $http.put().
+
+
+4. Logout – Ends session securely.
+
+
+
+ Data Flow:
+
+Student → AngularJS → Backend API → MySQL
+
+Frontend sends API requests to backend → Backend performs SQL operations → Data returned to UI.
+
+
+Challenges & Solutions :
+
+Challenge	Solution
+
+Authentication	Used hashed passwords & session tokens
+Integration	Used $http REST API calls
+SQL Security	Used prepared statements
+
+
+Expected Outcome :
+
+A secure, interactive student login system demonstrating AngularJS–SQL integration, CRUD operations, and real-time data updates.
